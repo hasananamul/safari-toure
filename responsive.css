@@ -1,0 +1,124 @@
+@media all and (max-width:991px){
+    .menu-right-menu ul {
+        justify-content: flex-end;
+    }
+    .menu-right-menu ul li a {
+        padding: 9px 10px;
+        line-height: 16px;
+    }
+    .middle-img {
+        right: 15%;
+        bottom: 28px;
+        width: 148px;
+    }
+    .middle-left p {
+        font-size: 13px;
+    }
+    .booking-card {
+        width: 80%;
+    }
+    .booking-form {
+        padding: 10px 0px;
+    }
+    .booking-form .input-field {
+        width: 70%;
+    }
+    .sumer-bottom ul li {
+        line-height: 31px;
+        font-size: 12px;
+    }
+    .summer-details li {
+        line-height: 31px;
+        font-size: 12px;
+    }
+    .offer-section h1 {
+        font-size: 22px;
+    }
+    .offer-text h3 {
+        font-size: 15px;
+    }
+    .offer-text p {
+        font-size: 11px;
+    }
+    .map-card {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .map-bg {
+        background-size: contain;
+        height: 449px;
+    }
+    .serch-box input {
+        width: 60%;
+        margin-bottom: 12px;
+        background-size: 100% 100%;
+    }
+    .serch-box input[type="submit"] {
+        width: 40%;
+        margin-left: 0;
+    }
+    .footer-contact-form textarea {
+        background-size: 100% 100%;
+        width: 92%;
+        height: 80px;
+    }
+    .form-button {
+        width: 92%;
+    }
+    .footer-contact-form button {
+        width: 50%;
+    }
+    .footer-copyright-text {
+        padding-top: 50px;
+    }
+    .footer-contact {
+        width: 100%;
+    }
+}
+@media all and (max-width:767px){
+    .main-header {
+        height: 1409px;
+    }
+    .menu-right-menu ul {
+        justify-content: center;
+    }
+    .header-top {
+        height: 1388px;
+    }
+    .booking-card {
+        text-align: center;
+        left: -104px;
+    }
+    .header-bottom {
+        height: 765px;
+    }
+    .offer-section {
+        margin-bottom: 100px;
+    }
+    .header-bottom-content {
+        bottom: -100px;
+    }
+    .map-card {
+        width: 100%;
+    }
+}
+@media all and (max-width:575px){
+    .summer-details{
+        display: none;
+    }
+    .offer-section {
+        padding: 0px 110px;
+    }
+    .main-map-card {
+        width: 90%;
+    }
+    .booking-card {
+        height: 40px;
+    }
+    .booking-card p a {
+        font-size: 13px;
+    }
+    .offer-section h1 {
+        font-size: 16px;
+    }
+}
